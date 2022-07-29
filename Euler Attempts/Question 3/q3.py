@@ -7,10 +7,7 @@
 '''This is a sample program for my CPSC 386 course'''
 
 def is_divisible(dividend, divisor):
-    quotient = dividend // divisor
-    if quotient * divisor == dividend:
-        return True
-    return False
+    return dividend % divisor == 0
 
 
 def main():
@@ -24,7 +21,7 @@ def main():
         n += 1
     print(f"The largest prime value for {original} is: {max_val}")
 
-    
+
 
 if __name__ == '__main__':
     main()

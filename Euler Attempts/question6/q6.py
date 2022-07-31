@@ -1,16 +1,18 @@
 #! /usr/bin/env python3
 # Konnor Gutierrez
-# CPSC 386-01
-# 2022-07-10
-# kgutierrez1992@csu.fullerton.edu
-# @kgutierrezCSUF
-#
-# Lab 00-00
-#
-# This is my first python program. It prints "Hello World!"
-#
+# CPSC 386
+# kgutierrez1992@live.com
+# 
 
-"""This module performs the Hello World program."""
+def main():
+    '''This is the main function.'''
+    print("hello world")
+    
+
+if __name__ == '__main__':
+    main()
+
+
 
 
 def main():

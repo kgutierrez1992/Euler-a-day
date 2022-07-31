@@ -4,16 +4,6 @@
 # kgutierrez1992@live.com
 # 
 
-def main():
-    '''This is the main function.'''
-    print("hello world")
-    
-
-if __name__ == '__main__':
-    main()
-
-
-
 
 def main():
     """This module prints 'Hello World!'."""
